@@ -1,0 +1,12 @@
+file_format: "1"
+id: split84
+name: Split84
+type: shield
+url: https://github.com/longle2710/zmk-config-split84
+requires: [nice_nano_v2]
+exposes: 
+features:
+  - keys
+siblings:
+  - split84_left
+  - split84_right

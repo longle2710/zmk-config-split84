@@ -1,0 +1,22 @@
+if SHIELD_SPLIT84_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Split84"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_SPLIT84_LEFT || SHIELD_SPLIT84_RIGHT
+
+config ZMK_POINTING
+    default y
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_SLEEP
+	default y
+
+endif

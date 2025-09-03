@@ -1,0 +1,5 @@
+config SHIELD_SPLIT84_LEFT
+    def_bool $(shields_list_contains,split84_left)
+
+config SHIELD_SPLIT84_RIGHT
+    def_bool $(shields_list_contains,split84_right)
