@@ -10,9 +10,6 @@ endif
 
 if SHIELD_SPLIT84_LEFT || SHIELD_SPLIT84_RIGHT
 
-config ZMK_POINTING
-    default y
-
 config ZMK_SPLIT
 	default y
 
