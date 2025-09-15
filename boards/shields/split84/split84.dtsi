@@ -36,14 +36,6 @@ RC(5,0)  RC(5,1)  RC(5,2)  RC(5,3)  RC(5,4)                             RC(5,8) 
 			;	
 	};
 
-    /* --- Wakeup after Soft-off using space key --- */
-    keys {
-        compatible = "gpio-keys";
-        soft_off_gpio_key: soft_off_gpio_key {
-            gpios = <&pro_micro 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // last row
-        };
-    };
-
 
 };
 
