@@ -1,6 +1,6 @@
 file_format: "1"
-id: split84
-name: Split84
+id: split84s
+name: Split84S
 type: shield
 url: https://github.com/longle2710/zmk-config-split84
 requires: [nice_nano_v2]
