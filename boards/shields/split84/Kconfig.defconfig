@@ -1,7 +1,7 @@
 if SHIELD_SPLIT84_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Split84"
+	default "Split84S"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
