@@ -23,3 +23,5 @@ include:
     shield: split84_left
   - board: nice_nano_v2
     shield: split84_right
+  - board: nice_nano_v2
+    shield: settings_reset
